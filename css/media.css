@@ -1,0 +1,54 @@
+@media screen and (max-width: 400px) {
+    
+    
+    label {
+    text-align: right;
+    width: 150px;
+    float: left;
+    
+    }
+    
+    
+    
+}
+@media screen and (max-width: 600px) {
+    
+    header {
+        padding: 5px;
+        background-color: #2e2e2e;
+        height: 40px;
+        position:relative;
+        top:0;
+        z-index: none;
+        width: 100%;
+}
+    
+    header ul {
+        margin: 0;
+        margin-top: 21px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        background-color: #383839;
+    }
+
+    header li {
+        display: block;
+    }
+    
+    header a {
+        margin-top: 5px;
+        display: block;
+        padding: 5px;
+        color: #fff;
+        font-size: 13px;
+        background-color: #383839;
+    
+}
+    
+    header a:hover {
+        color: #d89f1f;
+        height: 16px;
+    
+}
+    

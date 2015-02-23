@@ -1,0 +1,200 @@
+/*GLOBAL START**************************/
+
+h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bodoni', sans-serif;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
+
+/*GLOBAL END****************/
+
+/*HEADER START**************/
+#logo{
+    font-family: 'Futura';
+    font-size: 25px;
+}
+
+
+header {
+    height: 45px;
+    background-color: #2e2e2e;
+    padding: 5px;
+}
+
+header a h2 {
+    color: #fff;
+}
+
+header h2 {
+    color: #fff;
+    margin: 5px;
+    margin-left: 50px;
+    float: left;
+}
+header ul
+{
+    font-family: 'Bodoni';
+    font-size: 14px;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 50px;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+header ul li
+{
+    display: block;
+    position: relative;
+    float: left;
+}
+
+
+header li ul
+{
+    display: none;
+}
+
+header ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px 5px 15px;
+    background-color: #2e2e2e;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+header ul li a:hover 
+{
+    background: #2e2e2e;
+    color: #fab313;
+}
+header li:hover ul 
+{
+    display: block;
+    position: absolute;
+    margin-top: 0;
+}
+
+header li:hover li
+{
+    float: none;
+    font-size: 11px;
+}
+
+header li:hover li:first-child
+{
+    float: none;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+header li:hover a 
+{
+    background: #2e2e2e;
+}
+
+header li:hover li a:hover 
+{
+    background: #464646;
+}
+
+/***************/
+/*HEADER END**************/
+
+/*MAIN START**************/
+
+main {
+    margin-top: 70px;
+}
+
+
+.main-banner {
+    
+        font-family: 'Bodoni';
+		background: #dfe2e4;
+		text-align: center;
+		padding: 50px 15px;
+        margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+.main-content {
+    min-width:400px; 
+    font-family: 'Bodoni';
+    text-align: center;
+    padding: 20px;
+}
+
+#hiddenContent {
+    display: none;
+}
+
+
+
+.test {
+    border: 2px solid;
+}
+
+
+#user_welcome {
+    color: #d89f1f;
+}
+
+#logged_user {
+    font-size: 18px;
+    float: right;
+    color: #fff;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: block;
+    padding: 5px;
+    color: tomato;
+}
+
+#reg_button {
+    margin-right: 20px;
+}
+
+pre {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+#google-maps{
+    width: 250px;
+    height:190px;
+}
+/*MAIN END**************/
+
+/*FOOTER START**********/
+
+footer {
+    text-align: center;
+    padding: 25px;
+    clear:both;
+    
+}
+
+/*FOOTER END***********/

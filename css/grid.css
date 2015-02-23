@@ -1,0 +1,106 @@
+
+/* Global
+================================ */
+.grid-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+	width: 100%;
+}
+
+/* Media Queries
+================================ */
+
+@media (min-width: 1px) and (max-width: 767px)  {
+    
+}
+
+
+@media (min-width: 768px) {
+
+	/* Columns
+	================================ */
+    /*Alla direkta barn som är av classen grid*/
+    .grid-container >[class^="grid-"] { /* ">" Gör så att de MÅSTE vara direkta barn. Alla som börjar med class "grid-1"*/
+        float: left;
+        min-height: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 2%;
+    }
+    
+    .grid-container >[class^="grid-"]:first-child { /* Första barnet*/
+        margin-left: 0;
+    }
+    
+    .grid-container >[class^="grid-"]:last-child { /* Sista barnet*/
+        float: right;
+    }
+    
+    
+    
+    
+	/* Columns are 65px wide, with 20px gutters
+	=========================================== */
+    .grid-1 {
+        
+        width: 6.5%; /*65/1000*/
+        
+    }
+    
+    .grid-2 {
+        width: 15%; /*150/1000*/
+    }
+
+    .grid-3 {
+        width: 23.5%; /*150 + 65 + 20 */
+    }
+    
+    .grid-4 {
+        width: 32%; /* */
+    }
+    
+    .grid-5 {
+        width: 40.5%; /* */
+    }
+    
+    .grid-6 {
+        width: 49%;
+    }
+    
+    .grid-7 {
+        width: 57.5%;
+    }
+    
+    .grid-8 {
+        width: 66%;
+    }
+    
+    .grid-9 {
+        width: 74.5%;
+    }
+	
+    .grid-10 {
+        width: 83%;
+    }
+    
+    .grid-11 {
+        width: 91.5%;
+    }
+    
+    .grid-12 {
+        width: 100%;
+    }
+	/* Clearfix
+	================================ */
+
+	.group:after, .grid-container:after { /* Lägger till ett låtsas-element för att de ska behålla sin höjd */
+	  content: " ";
+	  display: table;
+	  clear: both;
+	}
+}
