@@ -1,4 +1,4 @@
-# A smooth intranet for a school
+# A smooth intranet for a school or similar
 Register and if approved - log in, follow updates, send/recieve files, contact classmates or alumni, write in the forum, activate/deactivate students. All depending on userrights :)
 
 Written in PHP without any frameworks.
